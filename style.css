@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins";
+  margin: 0;
+}
+
+body {
+  background-color: #e3e7eb;
+}
+
+/* Nav Home */
+
+.navbar {
+  background-color: #f4f3f3;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-ul {
+  display: flex;
+  align-items: center;
+  margin-left: 22px;
+  padding: 0;
+  list-style: none;
+  gap: 2rem;
+}
+
+.navbar-li {
+  font-weight: 700;
+}
+
+.logo-img {
+  width: 50px;
+}
+
+.btn-contact {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  background-color: #313644;
+  margin-right: 22px;
+}
+
+/* Nav Home */
+
+/* Home */
+
+.section {
+  width: auto;
+  height: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.all-section {
+  max-width: 1152px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  margin-top: 10px;
+  text-align: justify;
+  max-width: 789px;
+  letter-spacing: 0.1px;
+}
+
+.fawkadvfafbka {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.CV {
+  display: flex;
+  margin-top: 40px;
+}
+
+.cv-btn-contact {
+  text-decoration: none;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-right: 3rem;
+  color: white;
+  border-radius: 9999px;
+  background-color: #313644;
+}
+
+.due {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.section-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.social {
+  margin-top: 40px;
+}
+
+.card {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px gray;
+  margin-top: 3rem;
+  margin: 0;
+}
+
+.mfksufslaj {
+  padding: 20px;
+  text-align: center;
+}
+
+/* HOME */
+
+/* Nav Contact */
+
+.navbar-contact {
+  background-color: #f4f3f3;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-ul-contact {
+  display: flex;
+  align-items: center;
+  margin-left: 22px;
+  padding: 0;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-li-contact {
+  text-decoration: none;
+  color: black;
+}
+
+/* Nav Contact */
+
+/* Contact */
+
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.contact-input {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.input-form {
+  border-radius: 5px;
+  border: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  padding: 10px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.form-subject {
+  border-radius: 5px;
+  border: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  padding: 10px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.messsage-form {
+  padding: 10px;
+  border: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-submit {
+  border-radius: 9999px;
+  padding: 6px 20px;
+  width: fit-content;
+  background-color: #111727;
+  color: white;
+}
+
+/* Contact */
