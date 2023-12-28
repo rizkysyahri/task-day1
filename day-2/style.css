@@ -19,7 +19,7 @@ body {
   justify-content: space-between;
 }
 
-.navbar-ul {
+.navbar-ull {
   display: flex;
   align-items: center;
   margin-left: 22px;
