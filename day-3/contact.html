@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <nav class="navbar-contact">
+      <ul class="navbar-ul-contact">
+        <img
+          src="assets/img/dumbways-logo.png"
+          alt="dumbways"
+          class="logo-img"
+        />
+        <li>
+          <a href="index.html" class="nav-li-contact">Home</a>
+        </li>
+        <li>
+          <a href="#" class="nav-li-contact">My Project</a>
+        </li>
+      </ul>
+      <a href="contact.html" class="btn-contact">Contact Me</a>
+    </nav>
+
+    <div class="section-contact">
+      <h1>GET IN TOUCH</h1>
+
+      <div class="contact-input">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Samsul bahrain"
+          class="input-form"
+        />
+        <label for="email" style="margin-top: 20px">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="bahrain@gmail.com"
+          class="input-form"
+        />
+        <label for="phoneNumber" style="margin-top: 20px">Phone Number</label>
+        <input
+          type="number"
+          id="phoneNumber"
+          placeholder="089726111111"
+          class="input-form"
+        />
+        <label for="subject" style="margin-top: 20px">Subject</label>
+        <select id="subject" class="form-subject">
+          <option>Frontend Developer</option>
+          <option>Backend Developer</option>
+          <option>Fullstack Developer</option>
+        </select>
+        <label for="message" style="margin-top: 20px">Your Message</label>
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Tuliskan pesan kamu disini"
+          cols="30"
+          rows="10"
+          class="messsage-form"
+        ></textarea>
+
+        <div class="submit-btn">
+          <button class="btn-submit" onclick="submitData()">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/contact.js"></script>
+  </body>
+</html>
