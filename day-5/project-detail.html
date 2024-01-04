@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/project.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Detail Project</title>
+  </head>
+  <body>
+    <nav class="navbar-project">
+      <ul class="navbar-ul-project">
+        <img
+          src="assets/img/dumbways-logo.png"
+          alt="dumbways"
+          class="logo-img"
+        />
+        <li>
+          <a href="index.html" class="nav-li-project">Home</a>
+        </li>
+        <li>
+          <a href="project.html" class="nav-li-project-page">My Project</a>
+        </li>
+      </ul>
+      <a href="contact.html" class="btn-contact">Contact Me</a>
+    </nav>
+
+    <div class="section-project">
+      <h1
+        style="display: flex; justify-content: center"
+        id="input-project-name"
+      ></h1>
+      <a
+        href="project.html"
+        style="display: flex; text-decoration: none; color: black"
+      >
+        <div>
+          <i
+            class="fa-solid fa-arrow-left fa-lg"
+            style="margin-right: 10px"
+          ></i>
+          Project
+        </div>
+      </a>
+
+      <div class="section-project-2">
+        <div style="display: flex; gap: 3rem">
+          <img
+            src=""
+            alt=""
+            id="fileUpload"
+            style="width: 60%; border-radius: 10px"
+          />
+
+          <div class="detail-section">
+            <h4
+              style="font-weight: 600; font-size: 18px; padding: 0; margin: 0"
+            >
+              Duration
+            </h4>
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+                margin-top: 10px;
+              "
+            >
+              <i class="fa-solid fa-calendar-days fa-lg"></i>
+              <p id="start-date"></p>
+              <span>-</span>
+              <p id="end-date"></p>
+            </div>
+
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+                margin-top: 14px;
+              "
+            >
+              <i class="fa-regular fa-clock fa-lg"></i>
+              <p>1 Month</p>
+            </div>
+
+            <div>
+              <h4
+                style="
+                  font-weight: 600;
+                  font-size: 18px;
+                  padding: 0;
+                  margin-top: 40px;
+                "
+              >
+                Technologies
+              </h4>
+              <div id="technologies" style="display: flex; flex-wrap: wrap; gap: 2rem; margin-top: 14px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 32px" id="input-description"></p>
+      </div>
+    </div>
+
+    <script src="js/projectDetails.js"></script>
+  </body>
+</html>
