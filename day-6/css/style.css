@@ -99,7 +99,7 @@ body {
 .burger-menu-contact {
   display: flex;
   flex-direction: column;
-  align-items: center;
+   align-items: center;
   justify-content: center;
   background-color: #faf6f0;
   width: 100%;
