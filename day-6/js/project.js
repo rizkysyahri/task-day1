@@ -53,6 +53,7 @@ function addProject(e) {
   startDate = new Date(startDate);
   let endDate = document.getElementById("end-date").value;
   endDate = new Date(endDate);
+
   let image = document.getElementById("fileUpload").files;
   image = URL.createObjectURL(image[0]);
 
